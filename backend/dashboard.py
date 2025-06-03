@@ -168,6 +168,7 @@ if st.button("Ask Chatbot"):
             "Authorization": "Bearer wh_m764aw5hSXgSxTc9kEmCDk7RptQQJjBnjzjt0cGaD"
         }
         payload = {
+
             "question": user_query,
             "model": "aicon-v4-nano-160824",
             "randomness": 0.5,
